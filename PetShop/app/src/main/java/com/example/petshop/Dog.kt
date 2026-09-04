@@ -6,5 +6,5 @@ class Dog(name: String, age: Int): Pet(name, age), Pettable {
     }
 
     override fun pet() {
-        println("The cat $name is being petted")
+        println("The dog $name is being petted")
 }}
